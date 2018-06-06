@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/alteraquartusii
+# Created by https://www.gitignore.io/api/modelsim,alteraquartusii
 
 ### AlteraQuartusII ###
 ##list taken from http://www.alterawiki.com/wiki/Version_Control (01.10.2015)
@@ -63,5 +63,30 @@
 
 !*.tcl
 
+### ModelSim ###
+# ignore ModelSim generated files and directories (temp files and so on)
+[_@]*
 
-# End of https://www.gitignore.io/api/alteraquartusii
+# ignore compilation output of ModelSim
+*.mti
+*.dat
+*.dbs
+*.psm
+*.bak
+*.cmp
+*.jpg
+*.html
+*.bsf
+
+# ignore simulation output of ModelSim
+wlf*
+*.wlf
+*.vstf
+*.ucdb
+cov*/
+transcript*
+sc_dpiheader.h
+vsim.dbg
+
+
+# End of https://www.gitignore.io/api/modelsim,alteraquartusii
